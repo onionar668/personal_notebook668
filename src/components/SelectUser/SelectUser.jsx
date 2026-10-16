@@ -10,7 +10,9 @@ function SelectUser() {
      return (
       <select name="user" id="user" value={userId} onChange={changeUser}>
           <option value="1">Adil</option>
-          <option value="2">Amina</option>
+          <option value="2">Ben</option>
+          <option value="3">Jon</option>
+          <option value="4">Martin</option>
              </select>
      )
 }
